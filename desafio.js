@@ -32,10 +32,16 @@ var pasatiemposFavoritos = [
   'Deporte',
   'Guitarra',
   'Aprender',
+  'Codear'
 ]
 
 miActividadFavorita = function() {
-  console.log ('amo el surfing')
-}
+  console.log ('amo el surfing');
+};
+
+miActividadFavorita = function() {
+  console.log (pasatiemposFavoritos[1]);
+};
+
 
 console.log(miActividadFavorita())
